@@ -1,0 +1,14 @@
+[project]
+name = "intentledger"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["fastapi==0.115.6", "uvicorn==0.34.0", "pydantic==2.10.4", "sqlalchemy==2.0.36", "alembic==1.14.0", "psycopg[binary]==3.2.3", "langgraph==0.2.60"]
+[project.optional-dependencies]
+dev = ["pytest==8.3.4", "httpx==0.28.1", "ruff==0.8.4"]
+[project.scripts]
+intentledger = "intentledger.cli:main"
+[tool.pytest.ini_options]
+pythonpath=["services/api"]
+testpaths=["tests"]
+[tool.ruff]
+line-length=100

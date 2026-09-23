@@ -1,0 +1,4 @@
+const base=process.env.API_URL??"http://127.0.0.1:8000";
+export async function api<T>(path:string):Promise<T>{const token=process.env.LOCAL_API_TOKEN;const response=await fetch(`${base}/api/v1${path}`,{headers:token?{authorization:`Bearer ${token}`}:{},cache:"no-store"});if(!response.ok)throw new Error(`${response.status}: ${await response.text()}`);return response.json() as Promise<T>}
+export type Repository={id:string;display_name:string;default_branch:string;ingestion_status:string};
+export type Analysis={id:string;repository_id:string;base_sha:string;head_sha:string;evidence_cutoff:string;mode:string;status:string;rule_id:string;rule_version:number;rule_hash:string;outputs:{execution?:string;coverage?:{limitations?:string[]}};findings:Array<{file:string;line:number;target:string;disposition:string;path:string[]}>};

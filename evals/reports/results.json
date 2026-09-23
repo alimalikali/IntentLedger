@@ -1,0 +1,168 @@
+{
+  "mode": "fixture/offline",
+  "sample_count": 20,
+  "seed": 0,
+  "corpus_hash": "990ad74ba3c6fd7f50a55d17a358e94b5e497c4b6e340df6d04129aa9dd6547f",
+  "rows": [
+    {
+      "id": "forbidden_direct_import_introduced",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "legal_approved_boundary",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "direct_sdk_outside_adapter",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "legal_adapter_use",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "accepted_supersedes_old",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "unaccepted_comment_no_supersession",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "rejected_proposal_non_authoritative",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "partial_supersession_legacy_exception",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "out_of_scope_unaffected",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "unmerged_branch_not_governing",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "historical_replay_excludes_future",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "unknown_edited_comment_excluded",
+      "split": "development",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "supported_rename_lineage",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "ambiguous_rename_uncertainty",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "existing_not_introduced",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "introduced_when_both_fail",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "resolved_violation",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "accepted_conflict_abstains",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "alias_barrel_bypass",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    },
+    {
+      "id": "nonliteral_dynamic_unsupported",
+      "split": "held_out",
+      "pipeline": "temporal_evidence_aware",
+      "applicability_correct": 1,
+      "citation_valid": 1,
+      "checker_correct": 1
+    }
+  ]
+}

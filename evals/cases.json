@@ -1,0 +1,410 @@
+{
+  "synthetic": true,
+  "warning": "Twenty synthetic cases do not establish broad real-world accuracy.",
+  "cases": [
+    {
+      "id": "forbidden_direct_import_introduced",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "legal_approved_boundary",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "direct_sdk_outside_adapter",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "legal_adapter_use",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "accepted_supersedes_old",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "unaccepted_comment_no_supersession",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [
+        "proposal-comment"
+      ],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "rejected_proposal_non_authoritative",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "partial_supersession_legacy_exception",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "out_of_scope_unaffected",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "unmerged_branch_not_governing",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "historical_replay_excludes_future",
+      "split": "development",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [
+        "proposal-comment"
+      ],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "unknown_edited_comment_excluded",
+      "split": "development",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "supported_rename_lineage",
+      "split": "held_out",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "ambiguous_rename_uncertainty",
+      "split": "held_out",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": true,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "existing_not_introduced",
+      "split": "held_out",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "introduced_when_both_fail",
+      "split": "held_out",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "resolved_violation",
+      "split": "held_out",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "accepted_conflict_abstains",
+      "split": "held_out",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": true,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "alias_barrel_bypass",
+      "split": "held_out",
+      "group": "adapter-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "complete"
+    },
+    {
+      "id": "nonliteral_dynamic_unsupported",
+      "split": "held_out",
+      "group": "layer-history",
+      "base": "base",
+      "head": "head",
+      "cutoff": "2024-03-02T00:00:00Z",
+      "policy_snapshot": "adapter-v1",
+      "expected_applicable_decisions": [
+        "adapter-v1"
+      ],
+      "required_evidence": [
+        "adr-002"
+      ],
+      "forbidden_future_evidence": [],
+      "expected_relation_scope": "src/services/**",
+      "expected_findings": [],
+      "expected_abstention": false,
+      "expected_coverage": "unsupported"
+    }
+  ]
+}

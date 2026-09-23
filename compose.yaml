@@ -1,0 +1,15 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: intentledger
+      POSTGRES_PASSWORD: intentledger
+      POSTGRES_DB: intentledger
+    ports: ["127.0.0.1:5432:5432"]
+    volumes: ["intentledger_db:/var/lib/postgresql/data"]
+  api:
+    build: {context: ., dockerfile: infra/api.Dockerfile}
+    env_file: .env
+    ports: ["127.0.0.1:8000:8000"]
+    depends_on: [db]
+volumes: {intentledger_db: {}}

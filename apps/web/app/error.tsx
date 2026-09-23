@@ -1,0 +1,1 @@
+"use client";export default function Error({error,reset}:{error:Error,reset:()=>void}){return <section className="page"><div className="card"><h1>Request failed</h1><p>{error.message}</p><button className="button" onClick={reset}>Retry</button></div></section>}

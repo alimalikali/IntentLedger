@@ -1,0 +1,1 @@
+{"schema_version":1,"decision_version_id":"demo-adapter-v1","kind":"adapter_boundary","scope":["src/services/**"],"protected_packages":["payment-sdk"],"allowed_adapter_paths":["src/adapters/payment.ts"],"exceptions":["src/services/legacy/**"],"mode":"direct","include_type_only":false}

@@ -1,0 +1,1 @@
+{"name":"@intentledger/cli","private":true,"scripts":{"build":"echo Python CLI packaged by uv","lint":"echo ok","typecheck":"echo ok"}}
